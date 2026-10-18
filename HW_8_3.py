@@ -1,7 +1,7 @@
 def find_unique_value(some_list):
-    for number in some_list:
-        if some_list.count(number) == 1:
-            return number
+    for num in some_list:
+        if some_list.count(num) == 1:
+            return num
 
 
 assert find_unique_value([1, 2, 1, 1]) == 2, 'Test1'
